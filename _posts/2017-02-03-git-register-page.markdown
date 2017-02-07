@@ -2,7 +2,7 @@
 layout: post
 title: "Github 가입과 Repository 만들기"
 date: 2017-02-03 17:25:00 +0900
-categories: test pages
+categories: github 
 ---
 
 GIT 가입하기 
@@ -14,9 +14,11 @@ GIT 가입하기
 ![Alt text](https://c1.staticflickr.com/1/289/32696951106_002c157788_b.jpg, "Join Github")
 아래와 같은 계정 정보들이 필요합니다.
 
-*Username*: Github에서 사용할 사용자의 계정을 정합니다.<br> 
-*Email Address*: 가입시 사용자가 이메일로 확인을 하기위한 용도와 계정과 관련된 문의등을 받을 이메일을 기입합니다.<br> 
-*Password*: 계정에 사용할 비밀번호를 설정합니다. 이메일 비밀번호 용도가 아니며, Confirm Password를 요구하지 않습니다.
+> *Username*: Github에서 사용할 사용자의 계정을 정합니다.
+
+> *Email Address*: 가입시 사용자가 이메일로 확인을 하기위한 용도와 계정과 관련된 문의등을 받을 이메일을 기입합니다.
+
+> *Password*: 계정에 사용할 비밀번호를 설정합니다. 이메일 비밀번호 용도가 아니며, Confirm Password를 요구하지 않습니다.
 
 ![Alt text](https://c1.staticflickr.com/1/458/31923339033_91b60da06b_b.jpg, "Choose Plan")
 Github에서 사용하는 계정에 대해 public 권한과 private 권한 중 어떤 목적으로 사용할 것인지에 대해서 선택하면 됩니다.
