@@ -7,7 +7,7 @@ categories: jekyll github
 블로그를 다시 시작해볼까? 라는 마음으로 이전에 사용하던 티스토리 계정을 열어보았습니다만, 다시 시작하려 하니 플러그인 설치들과 같은 일로 시간을 낭비하는 것보다 심플함과 개방성, 기록을 하기 위한 블로그를 만들려다가 생각했던 것이 깃이었습니다만, HTML 페이지를 일일이 만들려고 시간낭비 하는 것에 대한 고민을 했습니다. 그러다보니 마크다운을 알게 되었고, Jekyll을 알게 되었습니다.
 
 # Jekyll 이란 무엇인가?
-Jekyll이란 공식사이트[jekyll-docs-home]에서 나와있는 설명을 하면 간단하고 단순한 사이트 생성기라고 합니다. 
+Jekyll이란 [공식사이트][jekyll-docs-home]에서 나와있는 설명을 하면 간단하고 단순한 사이트 생성기라고 합니다. 
 Markdown 같은 형태의 포멧을 HTML 포멧 형태로 변환해 주는 일을 하며, 서버에 배포까지 할 수 있으며, 파일 수정시 자동으로 재배포 할 수 있도록 실시간 반영이 됩니다.
 이렇게 사용자는 Markdown 형태의 파일을 작성하면 HTML로 변환하여 주기 때문에 별 다른 설정이 필요없이 사용할 수 있습니다.
 제가 사용하면서 가장 좋았던 점은 로컬에서 테스트하여 실시간으로 볼 수 있다는 점이 제일 좋은 것 같습니다.
@@ -21,7 +21,8 @@ MAC에서 설치하기 위해서는 Xcode가 설치되어 있어야 하며,
 {% highlight shell %}
 $ sudo gem install jekyll
 {% endhighlight %}
-
+<br>
+# 로컬에서 실행하기
 설치가 완료가 되었다면, 아래의 명령어를 사용하여 블로그를 생성합니다. 
 저의 Github아이디가 devheo 이니, 'devheo.github.io' 와 같이 생성하시면 되겠습니다. 
 왜 이런 형태로 만드냐하면은 로컬과 원격지의 폴더구조를 동일시하게 되면 여러모로 편리해서 그렇게 많이들 사용합니다.
@@ -70,7 +71,8 @@ $ sudo chmod username:group directory
 # 참고 자료
 1. Link: [jekyll 공식 사이트][jekyll-docs-home]
 2. Link: [jekyll 한글 번역 사이트][jekyll-docs-kr]
-3. Link: [놀부의 지킬로 깃허브에 무료 블로그 만들기]
+3. Link: [놀부의 지킬로 깃허브에 무료 블로그 만들기][nolboo-jekyll-post]
+
 
 [git-blog-register]: https://devheo.github.io/blog/test/pages/2017/02/03/git-register-page.html
 [jekyll-docs-home]: https://jekyllrb.com/docs/home/
