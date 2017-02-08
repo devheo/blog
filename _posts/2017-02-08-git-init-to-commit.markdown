@@ -5,7 +5,7 @@ date: 2017-02-08 14:46:00 +0900
 categories: Git
 ---
 
-현재 폴더에 새로운 Git 저장소를 만듭니다. 현재 폴더를 Git 저장소로 변환한다고 하는것이 더 맞는 표현일 수도 있겠네요. 생성이 완료되면 .git 폴더가 폴더내에 생성된 것을 확인하실 수 있습니다. `git init` 명령어가 바로 저장소를 만드는 명령어 입니다. 
+현재 폴더에 새로운 git 저장소를 만듭니다. 현재 폴더를 git 저장소로 변환한다고 하는것이 더 맞는 표현일 수도 있겠네요. 생성이 완료되면 .git 폴더가 폴더내에 생성된 것을 확인하실 수 있습니다. `git init` 명령어가 바로 저장소를 만드는 명령어 입니다. 
 
 {% highlight shell %}
 $ git init
@@ -19,7 +19,7 @@ $ touch README.md
 #=> 이렇게 파일만 생성해도 됩니다.
 {% endhighlight %}
 
-Git 저장소 내에 파일이 생성하였으면 git 저장소의 상태를 한 번 알아보겠습니다.
+git 저장소 내에 파일이 생성하였으면 git 저장소의 상태를 한 번 알아보겠습니다.
 `git status` 는 형재 저장소의 상태를 알아볼 때 사용하는 명령어 입니다.
 {% highlight shell %}
 $ git status
@@ -79,4 +79,5 @@ Changes to be committed:
 
       renamed:    README.md -> README
 {% endhighlight %}
+
 
